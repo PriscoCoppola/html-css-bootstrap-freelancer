@@ -1,3 +1,8 @@
+/* UTILITIES */
+/* Color */
+.bg-green {
+    background-color: #1abc9c;
+}
 .box {
     height: 100%;
     background-color: #ccc;
@@ -11,7 +16,11 @@
 
 /* MAIN */
 /* Banner */
-.bg-banner {
-    background-color: #1abc9c;
+.banner {
     height: 200px;
+}
+
+/* About */
+.about {
+    height: 300px;
 }
