@@ -13,6 +13,25 @@
     background-color: #ccc;
 }
 
+/* Separatore */
+.star {
+    padding: 30px 0 20px;
+}
+
+.star i {
+    padding: 0 10px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.star hr {
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
 /* HEADER */
 .header .bg-grey {
     padding: 20px 0;
@@ -29,14 +48,22 @@
     margin-bottom: 0;
 }
 
-
-
-
 /* MAIN */
 /* Banner */
 .banner {
-    height: 200px;
+    padding: 60px 0;
+    font-size: 14px;
+    color: #fff;
 }
+
+.banner img {
+    width: 250px;
+}
+
+.banner h1 {
+    font-size: 30px;
+}
+
 
 /* About */
 .about {
@@ -66,6 +93,23 @@
         font-size: 18px
     }
 
+    /* MAIN */
+    /* Banner */
+    .banner {
+        font-size: 20px;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+    
+    .star i {
+        font-size: 35px;
+    }
+    
+    .star hr {
+        width: 170px;
+    }
 }
 
 /* DESKTOP da 992 in su */
