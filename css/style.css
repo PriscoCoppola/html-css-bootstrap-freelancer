@@ -15,7 +15,7 @@
 
 /* Separatore */
 .star {
-    padding: 30px 0 20px;
+    padding: 10px 0;
 }
 
 .star i {
@@ -30,6 +30,11 @@
     vertical-align: middle;
     border-radius: 5px;
     border: 2px solid #fff;
+}
+
+/* Decoration */
+h2 {
+    font-size: 45px;
 }
 
 /* HEADER */
@@ -64,6 +69,18 @@
     font-size: 30px;
 }
 
+/* Content */
+.content {
+    margin: 50px 0;
+}
+
+.content .star hr {
+    border: 2px solid #333;
+}
+
+.content img {
+    margin-bottom: 30px;
+}
 
 /* About */
 .about {
