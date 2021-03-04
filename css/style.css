@@ -1,3 +1,4 @@
+/* MOBILE FIRST da 0px a 767px */
 /* UTILITIES */
 /* Color */
 .bg-grey {
@@ -13,9 +14,23 @@
 }
 
 /* HEADER */
-.header {
-    height: 50px;
+.header .bg-grey {
+    padding: 20px 0;
+    border-radius: 0;
+    border: 0;
 }
+
+.header .bg-grey a,
+.header .bg-grey li a {
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+
 
 /* MAIN */
 /* Banner */
@@ -39,3 +54,18 @@
 .bottom {
     height: 50px;
 }
+
+/* TABLET da 768px a 991px */
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    .header .navbar-brand {
+        font-size: 28px
+    }
+
+    .header .navbar-right {
+        font-size: 18px
+    }
+
+}
+
+/* DESKTOP da 992 in su */
