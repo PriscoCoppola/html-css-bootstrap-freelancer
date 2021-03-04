@@ -37,6 +37,10 @@
     border: 2px solid #fff;
 }
 
+.star-dark hr {
+    border: 2px solid #333;
+}
+
 /* Decoration */
 h2 {
     font-size: 45px;
@@ -45,6 +49,10 @@ h2 {
 /* GENERAL */
 body {
     font-size: 18px;
+}
+
+label {
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -72,11 +80,6 @@ body {
     scale: 1.2;
 }
 
-/* .navbar-default .navbar-right li:hover {
-    color: #333;
-    border-bottom: 1px solid #333;
-} */
-
 /* MAIN */
 /* Banner */
 .banner {
@@ -93,9 +96,6 @@ body {
 }
 
 /* Content */
-.content .star hr {
-    border: 2px solid #333;
-}
 
 .content img {
     margin-bottom: 30px;
@@ -115,6 +115,23 @@ body {
 
 .btn:hover {
     background-color: #fff;
+}
+
+/* Contact */
+.form-pc {
+    padding: 0;
+    font-size: 18px;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+.btn-lightgreen {
+    margin-top: 10px;
+    background-color: #1abc9c;
 }
 
 /* FOOTER */
