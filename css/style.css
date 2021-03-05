@@ -31,7 +31,7 @@
 
 .star hr {
     display: inline-block;
-    width: 70px;
+    width: 20%;
     vertical-align: middle;
     border-radius: 5px;
     border: 2px solid #fff;
@@ -43,7 +43,15 @@
 
 /* Decoration */
 h2 {
-    font-size: 45px;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
 }
 
 /* GENERAL */
@@ -53,6 +61,11 @@ body {
 
 label {
     font-weight: 400;
+}
+
+/* Transition */
+.btn {
+    transition: background-color .3s;
 }
 
 /* HEADER */
@@ -75,9 +88,19 @@ label {
     transition: scale .5s;
 }
 
+.navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
     color: #fff;
     scale: 1.2;
+}
+
+.navbar-default .navbar-nav > li > a {
+    transition: color .3s;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
 }
 
 /* MAIN */
@@ -118,7 +141,16 @@ label {
 }
 
 /* Contact */
+.form-contact input {
+    height: 45px;
+} 
+
+.form-control::placeholder {
+    color: #333;
+}
+
 .form-pc {
+    line-height: 45px;
     padding: 0;
     font-size: 18px;
     color: #333;
@@ -131,19 +163,64 @@ label {
 
 .btn-lightgreen {
     margin-top: 10px;
+    color: #fff;
     background-color: #1abc9c;
+}
+
+.btn-lightgreen:focus,
+.btn-lightgreen:hover {
+    color: #fff;
+    background-color: #11977c;
 }
 
 /* FOOTER */
 /* Top */
 .top {
+    color: #fff;
     background-color: #3a546d;
-    height: 100px;
+}
+
+.top .list-pc {
+    padding-left: 0;
+}
+
+.top .list-pc li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.top .list-pc i {
+    color: #fff;
+}
+
+.top .list-pc li:hover {
+    background-color: #fff;
+}
+
+.top .list-pc li:hover i {
+    color: #333;
+}
+
+
+.top .text a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.top p {
+    font-size: 16px;
 }
 
 /* Bottom */
 .bottom {
-    height: 50px;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
 }
 
 /* TABLET da 768px a 991px */
@@ -153,9 +230,10 @@ label {
     .star i {
         font-size: 35px;
     }
-    
-    .star hr {
-        width: 170px;
+
+    /* Decoration */
+    h2 {
+        font-size: 45px;
     }
 
     /* HEADER */
