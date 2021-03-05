@@ -57,6 +57,7 @@ li {
 /* GENERAL */
 body {
     font-size: 18px;
+    margin-top: 90px;
 }
 
 label {
@@ -103,6 +104,14 @@ label {
     color: #1abc9c;
 }
 
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
 /* MAIN */
 /* Banner */
 .banner {
@@ -124,6 +133,35 @@ label {
     margin-bottom: 30px;
 }
 
+.bonus {
+    position: relative;
+}
+
+.content .bonus .layover {
+    display: none;
+    background-color: rgba(26, 188, 156, .6);
+    position: absolute;
+    top: 0;
+    bottom: 30px;
+    left: 15px;
+    right: 15px;
+    border-radius: 5px;
+}
+
+.content .bonus:hover .layover {
+    display: block;
+}
+
+.content .layover .icon {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
 /* About */
 .about {
     color: #fff;
@@ -139,6 +177,7 @@ label {
 .btn:hover {
     background-color: #fff;
 }
+
 
 /* Contact */
 .form-contact input {
@@ -223,7 +262,7 @@ label {
     font-size: 14px;
 }
 
-/* TABLET da 768px a 991px */
+/* TABLET e DESKTOP da 768px in su */
 @media screen and (min-width: 768px) {
     /* UTILITIES */
     /* Separatore */
@@ -255,5 +294,3 @@ label {
         font-size: 50px;
     }
 }
-
-/* DESKTOP da 992 in su */
